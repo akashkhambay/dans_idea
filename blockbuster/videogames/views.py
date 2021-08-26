@@ -13,4 +13,4 @@ def index(request):
     return HttpResponse("Hello, world... Blockbuster is back. Here are the videogames index")
 
 def about(request):
-    return render(request, '/hello.html')    
+    return render(request, 'videogames/about.html')    
